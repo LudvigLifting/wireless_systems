@@ -1,0 +1,5 @@
+Block interleaver theory questions:
+1. The purpouse is to distribute burst errors over the whole sequence, so that no whole codeword is lost.
+2. Because there will still be the same amount of errors, only distributed over the whole sequence.
+3. The latency of the interleaver in fig 14.26 is N*D*Tb where N is the word length, D is the separation distance and Tb is the bit duration.
+4. They are separated by the distance D (or by the number of rows in the matrix)

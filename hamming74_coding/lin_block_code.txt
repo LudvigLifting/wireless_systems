@@ -1,0 +1,15 @@
+1.    The code can be constructed as a systematic code, what does this mean?
+        With systematic code, the input data is included in the codeword.
+2.    That the code is linear is an important fact that simplifies the implementation drastically.
+    a)  What does it mean that a code is linear?
+        If a code is linear, it means that the transformation from input to codeword is a linear transformation.
+    b)  What is it that becomes easier?
+        You can use Linear algebra and use matrices for the code conversions.
+3.    How many errors can the Hamming(7,4) code detect and correct?
+        It can detect and correct 1 error.
+4.    What is the generator matrix G?
+        The Generator matrix is used to transform the input into the codeword.
+5.    What is the parity check matrix H?
+        The parity check matrix is used for checking the parity bits and if they hold, it can be used to create the syndrome vector.
+6.    What is the syndrome vector s?
+        The syndrome vector is a vector representing the placement of an error, if it is the null vector then there are no errors.
